@@ -1,3 +1,5 @@
+/* At first let's import all the necessary system packages*/
+
 #include <stdio.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -9,9 +11,12 @@
 #include <sys/types.h>
 #include <time.h>
 
+/* defining some constants that we will use later */
+
 #define MAXLINE 1024
 #define LISTENQ 10
 
+/* Using typedef to assign SA as sockaddr */
 typedef struct sockaddr SA;
 
 int main (int argc, char **argv){
@@ -53,7 +58,6 @@ int main (int argc, char **argv){
 
     while(1){
         bzero(sbuffer, sizeof(sbuffer));
-        // printf("Client_%d: ", getpid());
         printf("Client: ");
         fgets(sbuffer, 255, stdin);
 
@@ -63,8 +67,7 @@ int main (int argc, char **argv){
             perror("Error.");
         }
 
-        // read
-
+        /* Reads content from keyword */
         bzero(rbuffer, sizeof(rbuffer));
         cn = read(sockfd, rbuffer, sizeof(rbuffer));
 
@@ -74,8 +77,7 @@ int main (int argc, char **argv){
 
         printf("Server: ");
         puts(rbuffer);
-        // printf("\n");
-    } // while
+    } 
 
     
 }
