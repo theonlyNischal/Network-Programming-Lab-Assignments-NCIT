@@ -12,6 +12,8 @@ This repo will hold the lab assignment done at the Network Programming Course at
 
 - Simple chat but built with concurrent server. https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/05-concurrent-chat
 
+- TCP Quiz https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/06-TCP-Quiz
+
 
 Instructions
 ================
