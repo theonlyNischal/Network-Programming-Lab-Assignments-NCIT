@@ -1,6 +1,9 @@
+
 Network Programming Lab Assignment
 --------------------------------------
 This repo will hold the lab assignment done at the Network Programming Course at NCIT, 2020.
+
+Under Supervision of Asst. Prof. Madan Kadariya https://www.linkedin.com/in/madan-kadariya-30b037b1/
 
 - Time of day client-server program using TCP sockets. https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/01-day-of-time
 
