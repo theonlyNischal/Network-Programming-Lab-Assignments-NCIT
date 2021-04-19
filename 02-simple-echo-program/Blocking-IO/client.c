@@ -73,7 +73,6 @@ int main(int argc, char **argv){
             }
         } // standard input
 
-        // File Descriptior: Network
         if(FD_ISSET(sockfd, &master)){
             bzero(rbuffer, sizeof(rbuffer));
             n = recvfrom(sockfd, rbuffer, MAXLINE, 0, (SA*) &clientaddr, &len);
