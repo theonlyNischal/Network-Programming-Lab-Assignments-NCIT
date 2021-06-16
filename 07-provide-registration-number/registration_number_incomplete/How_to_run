@@ -1,0 +1,5 @@
+To run server: ./server -p 8080
+
+To run client 1: ./client -h 127.0.0.1 -p 8080 -n 161745
+
+To run client 2: ./client -h 127.0.0.1 -p 8080 -n 284874 (run this in another tab.)
