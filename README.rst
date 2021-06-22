@@ -17,6 +17,10 @@ Under Supervision of Asst. Prof. Madan Kadariya https://www.linkedin.com/in/mada
 
 - TCP Quiz https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/06-TCP-Quiz
 
+- [Incomplete]-Provide Registration Number https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/07-provide-registration-number
+
+- [Incomplete]-Client-to-Client Communication Chat
+
 
 Instructions
 ================
