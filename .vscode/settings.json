@@ -1,6 +1,7 @@
 {
     "restructuredtext.confPath": "",
     "files.associations": {
-        "inet.h": "c"
+        "inet.h": "c",
+        "string.h": "c"
     }
 }
