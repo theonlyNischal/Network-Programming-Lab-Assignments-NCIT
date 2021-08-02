@@ -19,7 +19,7 @@ Under Supervision of Asst. Prof. Madan Kadariya https://www.linkedin.com/in/mada
 
 - [Incomplete]-Provide Registration Number https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/07-provide-registration-number
 
-- [Incomplete]-Client-to-Client Communication Chat
+- [Incomplete]-Client-to-Client Communication Chat https://github.com/theonlyNischal/Network-Programming-Lab-Assignments-NCIT/tree/main/08-client-to-client-chat
 
 
 Instructions
