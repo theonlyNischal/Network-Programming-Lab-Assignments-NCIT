@@ -19,12 +19,15 @@ MESSAGE RULES
 ------------------
 Messages between client and server must follow these rules.
 These messages also must trigger the actions listed
+
 **Information messages from server to client**
 Must begin with 0 e.g. 0Welcome to the game
+
 **Server asks for new questions from client**
 Must begin with 1 e.g. 1Enter new question
 This should be done only if there is no questions in the
 buffer
+
 **Client sends new question to server**
 Must begin with 2
 Question part must end with ?
@@ -33,10 +36,12 @@ e.g. 2Who is your network programming instructor? (Madan)
 Client should be able to enter new questions at any time. If
 the current questions is still open, this newly submitted
 question should be stored into a buffer and used later on
+
 **Server sends question to other clients**
 Must begin with 3
 First question from the buffer should be used. If the buffer
 is empty --> ask for new questions from the clients
+
 **Client answers to the received question**
 Must begin with 4
 If correct answer is not found until timer expires server
